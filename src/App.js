@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState("home");
@@ -32,34 +33,9 @@ const App = () => {
     <div>
       <Nav handleNavigation={handleNavigation} currentPage={currentPage} />
       <div>{renderPage()}</div>
+      <Footer />
     </div>
   );
 };
 
 export default App;
-
-// function App() {
-//   // const router = createBrowserRouter(
-//   //   createRoutesFromElements(
-//   //     <Route path="/" element={<Root />}>
-//   //       <Nav />
-//   //       <Route path="/about" element={<About />} />
-//   //       <Route path="/contact" element={<Contact />} />
-//   //       <Route path="/projects" element={<Projects />} />
-//   //       <Route path="/resume" element={<Resume />} />
-//   //     </Route>
-//   // )
-//   // );
-//   return (
-//     <>
-//       <div>
-//         <Nav />
-//         <About />
-//         <Projects />
-//         <Contact />
-
-//         <Footer />
-//       </div>
-//     </>
-//   );
-// }
