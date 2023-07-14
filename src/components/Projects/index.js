@@ -64,13 +64,15 @@ export default function Projects() {
       <div>
         <div className="flex-col border-solid border-2 border-blue-600 w-200 h-200 justify-center font-serif text-xl p-5 rounded mx-auto max-w-[1000px] my-10">
           <h2>{projects[0].name}</h2>
-          <img className="w-1/2 mx-auto" src={projects[0].image}></img>
+          <img className="w-1/2 mx-auto" src={projects[0].image} alt="" />
+
           <div className="text-center">
             <p>{projects[0].description}</p>
             <p>{projects[0].technologies}</p>
             <a
               href="https://intelligent-bastille-94774-2d7aa4f639d1.herokuapp.com/"
               target="_blank"
+              rel="noreferrer"
             >
               <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
                 Deployed Link
@@ -85,7 +87,8 @@ export default function Projects() {
         </div>
         <div className="flex-col border-solid border-2 border-blue-600 w-200 h-200 justify-center font-serif text-xl p-5 rounded mx-auto max-w-[1000px] my-10">
           <h2>{projects[1].name}</h2>
-          <img className="w-1/2 mx-auto" src={projects[1].image}></img>
+          <img className="w-1/2 mx-auto" src={projects[1].image} alt="" />
+
           <div className="text-center">
             <p>{projects[1].description}</p>
             <p>{projects[1].technologies}</p>
@@ -103,7 +106,8 @@ export default function Projects() {
         </div>
         <div className="flex-col border-solid border-2 border-blue-600 w-200 h-200 justify-center font-serif text-xl p-5 rounded mx-auto max-w-[1000px] my-10">
           <h2>{projects[2].name}</h2>
-          <img className="w-1/2 mx-auto" src={projects[2].image}></img>
+          <img className="w-1/2 mx-auto" src={projects[2].image} alt="" />
+
           <div className="text-center">
             <p>{projects[2].description}</p>
             <p>{projects[2].technologies}</p>
@@ -121,7 +125,7 @@ export default function Projects() {
         </div>
         <div className="flex-col border-solid border-2 border-blue-600 w-200 h-200 justify-center font-serif text-xl p-5 rounded mx-auto max-w-[1000px] my-10">
           <h2>{projects[3].name}</h2>
-          <img className="w-1/2 mx-auto" src={projects[3].image}></img>
+          <img className="w-1/2 mx-auto" src={projects[3].image} alt="" />
           <div className="text-center">
             <p>{projects[3].description}</p>
             <p>{projects[3].technologies}</p>
@@ -139,7 +143,7 @@ export default function Projects() {
         </div>
         <div className="flex-col border-solid border-2 border-blue-600 w-200 h-200 justify-center font-serif text-xl p-5 rounded mx-auto max-w-[1000px] my-10">
           <h2>{projects[4].name}</h2>
-          <img className="w-1/2 mx-auto" src={projects[4].image}></img>
+          <img className="w-1/2 mx-auto" src={projects[4].image} alt="" />
           <div className="text-center">
             <p>{projects[4].description}</p>
             <p>{projects[4].technologies}</p>
@@ -157,7 +161,7 @@ export default function Projects() {
         </div>
         <div className="flex-col border-solid border-2 border-blue-600 w-200 h-200 justify-center font-serif text-xl p-5 rounded mx-auto max-w-[1000px] my-10">
           <h2>{projects[5].name}</h2>
-          <img className="w-1/2 mx-auto" src={projects[5].image}></img>
+          <img className="w-1/2 mx-auto" src={projects[5].image} alt="" />
           <div className="text-center">
             <p>{projects[5].description}</p>
             <p>{projects[5].technologies}</p>
