@@ -69,7 +69,7 @@ export default function Projects() {
             <p>{projects[0].description}</p>
             <p>{projects[0].technologies}</p>
             <a
-              href="https://obscure-falls-81911.herokuapp.com/"
+              href="https://intelligent-bastille-94774-2d7aa4f639d1.herokuapp.com/"
               target="_blank"
             >
               <button className="bg-zinc-300 border-solid border-2 border-black-600 hover:bg-red-600 p-3">
