@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import "./App.css"; // Import CSS file if needed
+import "./App.css";
 import Nav from "./components/Nav/nav";
 import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import ContactForm from "./components/Contact"; // Import the ContactForm component
+import ContactForm from "./components/Contact";
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState("home");
@@ -23,14 +23,14 @@ const App = () => {
       case "projects":
         return <Projects />;
       case "contact":
-        return <ContactForm />; // Render the ContactForm component instead of the Contact component
+        return <ContactForm />;
       default:
         return <Home />;
     }
   };
 
   return (
-    <div>
+    <div className="">
       <Nav handleNavigation={handleNavigation} currentPage={currentPage} />
       <div>{renderPage()}</div>
       <Footer />

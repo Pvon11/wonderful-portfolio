@@ -13,7 +13,7 @@ export default function About() {
           src={picture}
           alt="Profile"
         />
-        <p className="max-w-xl text-lg leading-relaxed">
+        <p className="max-w-xl text-lg leading-relaxed font-raleway">
           I am a passionate MERN full-stack web developer with expertise in
           creating robust and dynamic web applications. In my free time, I
           channel my creativity through music, performing as a freelance jazz

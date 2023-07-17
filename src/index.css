@@ -5,13 +5,6 @@
 @layer base {
   body {
     /* can be treated like a fallback */
-    background-color: purple;
-
-    /* will be "on top", if browser supports it */
-    background-image: linear-gradient(purple, orange);
-
-    /* these will reset other properties, like background-position, but it does know what you mean */
-    background: purple;
-    background: linear-gradient(purple, orange);
+    background-color: #fac9b8;
   }
 }

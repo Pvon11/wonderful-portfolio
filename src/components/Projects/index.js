@@ -2,18 +2,17 @@ import React from "react";
 import picture from "../assets/Docdocs.png";
 import picture1 from "../assets/MovieBattle.png";
 import picture2 from "../assets/WeatherApp.png";
-import picture3 from "../assets/NoteTaker.png";
-import picture4 from "../assets/PASSWORD.png";
-import picture5 from "../assets/WorkPlanner.png";
+import picture3 from "../assets/Pokemon.png";
 
+//List of projects
 const projects = [
   {
     name: "Docdocs",
     image: picture,
     description: "A Medical Database for Doctors.",
     technologies: "Handlebars, JavaScript, Express, bcrypt, nodemailer, node.",
-    deployed: "https://obscure-falls-81911.herokuapp.com/",
-    repo: "https://github.com/JSR5404/DocDocs",
+    deployed: "https://intelligent-bastille-94774-2d7aa4f639d1.herokuapp.com/",
+    repo: "https://github.com/Pvon11/DocDocs",
   },
   {
     name: "Movie Battle",
@@ -32,40 +31,26 @@ const projects = [
     repo: "https://github.com/Pvon11/Weather-App",
   },
   {
-    name: "Note Taker",
+    name: "Pokémon",
     image: picture3,
-    description: "A Note Taking app that saves notes.",
-    technologies: "HTML, CSS, JavaScript, Node.js, Heroku.",
-    deployed: "https://murmuring-badlands-33690.herokuapp.com/",
-    repo: "https://github.com/Pvon11/Note-Taker",
-  },
-  {
-    name: "Password Generator",
-    image: picture4,
-    description: "A Note Taking app that saves notes.",
-    technologies: "Placeholder",
-    deployed: "https://pvon11.github.io/Password-Generator/",
-    repo: "https://github.com/Pvon11/Password-Generator",
-  },
-  {
-    name: "Work Day Scheduler",
-    image: picture5,
-    description: "A Note Taking app that saves notes.",
-    technologies: "HTML, CSS, JavaScript",
-    deployed: "https://pvon11.github.io/Work-Planner/",
-    repo: "https://github.com/Pvon11/Work-Planner",
+    description: "My first project, Guess the Pokémon!",
+    technologies: "HTML, CSS, JavaScript, PokéAPI.",
+    deployed: "https://pvon11.github.io/Pokemon-Quiz/",
+    repo: "https://github.com/Pvon11/Pokemon-Quiz",
   },
 ];
 
 export default function Projects() {
   return (
-    <div id="project">
-      <h1 className="text-4xl text-center py-5">Projects</h1>
+    <div
+      id="project"
+      className="flex flex-wrap justify-center mx-auto max-w-4xl mt-20 text-center"
+    >
       <div className="flex flex-wrap justify-center mx-auto max-w-4xl">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="flex flex-col bg-gray-100 border-2 border-blue-600 rounded-md p-5 m-5 max-w-sm"
+            className="flex flex-col bg-notsilver border-2 border-notslate rounded-md p-5 m-5 max-w-sm"
           >
             <h2 className="text-2xl mb-3">{project.name}</h2>
             <img className="w-1/2 mx-auto mb-3" src={project.image} alt="" />

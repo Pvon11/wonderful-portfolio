@@ -2,7 +2,7 @@ import React from "react";
 
 const Nav = ({ handleNavigation, currentPage }) => {
   return (
-    <nav className="fixed top-0 w-full h-[100px] flex justify-between items-center px-5 bg-blue-700 text-amber-700 text-2xl font-serif">
+    <nav className="fixed top-0 w-full h-[90px] flex justify-between items-center px-5 py-2 bg-notindigo text-notpeach text-2xl font-raleway">
       <button
         onClick={() => handleNavigation("home")}
         className={currentPage === "home" ? "active" : ""}
@@ -32,5 +32,3 @@ const Nav = ({ handleNavigation, currentPage }) => {
 };
 
 export default Nav;
-
-
