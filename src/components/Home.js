@@ -24,12 +24,11 @@ export default function Home() {
               src={picture}
               alt="Profile"
             />
-            {/* New container for the text with pointer-events: none */}
             <div
               className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full md:w-5/6 lg:w-full max-w-xl text-base md:text-xl leading-relaxed font-raleway opacity-0 group-hover:opacity-100 ${
                 showInfo ? "opacity-100" : ""
               }`}
-              style={{ pointerEvents: "none" }} // Apply pointer-events: none
+              style={{ pointerEvents: "none" }}
             >
               <p className="text-center">
                 I am a passionate MERN full-stack web developer who recently
