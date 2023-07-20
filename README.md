@@ -2,7 +2,7 @@
 
 This is a professional portfolio built using React and Create React App. It showcases my skills, projects, and experience to potential employers and clients. The portfolio is hosted on Vercel, which provides a reliable and scalable platform for deployment.
 
-[https://wonderful-portfolio-cqte3qrym-pvon11.vercel.app](https://wonderful-portfolio-cqte3qrym-pvon11.vercel.app)
+[https://wonderful-portfolio.vercel.app/](https://wonderful-portfolio.vercel.app/)
 
 
 ## Features
