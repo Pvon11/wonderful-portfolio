@@ -1,8 +1,17 @@
 import React from "react";
 import LinkedInLink from "./LinkedInLink";
 import GitHubLogo from "../assets/githublogo.png";
+import PdfIcon from "../assets/resumeIcon.png";
 
 export default function Footer() {
+  const openResumePDF = () => {
+    const resumePDFPath = process.env.PUBLIC_URL + "/Resume.pdf";
+    const newWindow = window.open(resumePDFPath, "_blank");
+    if (!newWindow) {
+      // error
+    }
+  };
+
   return (
     <footer className="fixed bottom-0 left-0 w-full bg-notindigo text-notpeach flex justify-between items-center p-4 font-raleway text-xl">
       <h3 className="text-4xl">Contact Me!</h3>
@@ -15,6 +24,9 @@ export default function Footer() {
           <img src={GitHubLogo} alt="GitHub" className="w-12 h-12" />
         </a>
         <LinkedInLink />
+        <button onClick={openResumePDF}>
+          <img src={PdfIcon} alt="Resume PDF" className="w-12 h-12" />
+        </button>
       </div>
       <div>
         <p>patrickvona11@gmail.com</p>
