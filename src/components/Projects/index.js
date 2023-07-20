@@ -61,7 +61,7 @@ export default function Projects() {
                 href={project.deployed}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-zinc-300 border-2 border-black-600 hover:bg-red-600 py-2 px-4 rounded"
+                className="bg-zinc-300 border-2 border-black-600 hover:bg-notslate py-2 px-4 rounded"
               >
                 Deployed Link
               </a>
@@ -69,7 +69,7 @@ export default function Projects() {
                 href={project.repo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-zinc-300 border-2 border-black-600 hover:bg-red-600 py-2 px-4 rounded"
+                className="bg-zinc-300 border-2 border-black-600 hover:bg-notslate py-2 px-4 rounded"
               >
                 Github
               </a>

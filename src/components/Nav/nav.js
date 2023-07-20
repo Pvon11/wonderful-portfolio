@@ -9,12 +9,7 @@ const Nav = ({ handleNavigation, currentPage }) => {
       >
         Home
       </button>
-      <button
-        onClick={() => handleNavigation("about")}
-        className={currentPage === "about" ? "active" : ""}
-      >
-        About
-      </button>
+
       <button
         onClick={() => handleNavigation("projects")}
         className={currentPage === "projects" ? "active" : ""}

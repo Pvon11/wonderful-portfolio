@@ -13,7 +13,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="fixed bottom-0 left-0 w-full bg-notindigo text-notpeach flex justify-between items-center p-4 font-raleway text-xl">
+    <footer className="fixed bottom-0 left-0 w-full  bg-notindigo text-notpeach flex justify-between items-center p-4 font-raleway text-xl">
       <h3 className="text-4xl">Contact Me!</h3>
       <div className="flex space-x-4">
         <a

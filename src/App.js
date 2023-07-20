@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./App.css";
 import Nav from "./components/Nav/nav";
 import Home from "./components/Home";
-import About from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import ContactForm from "./components/Contact";
@@ -18,8 +17,6 @@ const App = () => {
     switch (currentPage) {
       case "home":
         return <Home />;
-      case "about":
-        return <About />;
       case "projects":
         return <Projects />;
       case "contact":
