@@ -44,9 +44,9 @@ export default function Projects() {
   return (
     <div
       id="project"
-      className="flex flex-wrap justify-center mx-auto max-w-4xl mt-20 text-center"
+      className="flex flex-wrap justify-center mx-auto max-w-4xl mt-20 mb-40 text-center"
     >
-      <div className="flex flex-wrap justify-center mx-auto max-w-4xl">
+      <div className="flex flex-wrap justify-center mx-auto max-w-4xl mt-10 md:mt-20">
         {projects.map((project, index) => (
           <div
             key={index}
