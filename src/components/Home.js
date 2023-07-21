@@ -20,7 +20,7 @@ export default function Home() {
             onMouseLeave={() => setShowInfo(false)}
           >
             <img
-              className="w-full h-auto mx-auto rounded-full shadow-md border border-gray-500 filter hover:grayscale-100 hover:opacity-20 hover:scale-105 sm:w-full md:w-full lg:w-2/3"
+              className="w-full h-auto mx-auto shadow-md border border-gray-500 filter hover:grayscale-100 hover:opacity-20 hover:scale-105 sm:w-full md:w-full lg:w-2/3"
               src={picture}
               alt="Profile"
             />
@@ -30,7 +30,7 @@ export default function Home() {
               }`}
               style={{ pointerEvents: "none" }}
             >
-              <p className="text-center font-burtons text-notindigo font-extrabold ">
+              <p className="text-center font-burtons text-notindigo font-extrabold">
                 I am a passionate MERN full-stack web developer who recently
                 graduated UPENN's FSF Bootcamp. It equipped me with expertise in
                 developing resilient and dynamic web applications. In my free
