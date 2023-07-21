@@ -20,7 +20,7 @@ export default function Home() {
             onMouseLeave={() => setShowInfo(false)}
           >
             <img
-              className="w-full h-auto mx-auto rounded-full shadow-md border border-gray-500 filter hover:grayscale-100 hover:opacity-25 hover:scale-105 sm:w-full md:w-full lg:w-2/3"
+              className="w-full h-auto mx-auto rounded-full shadow-md border border-gray-500 filter hover:grayscale-100 hover:opacity-20 hover:scale-105 sm:w-full md:w-full lg:w-2/3"
               src={picture}
               alt="Profile"
             />
@@ -30,14 +30,14 @@ export default function Home() {
               }`}
               style={{ pointerEvents: "none" }}
             >
-              <p className="text-center">
+              <p className="text-center font-burtons text-notindigo font-extrabold ">
                 I am a passionate MERN full-stack web developer who recently
-                graduated the prestigious UPENN Bootcamp. It gave expertise in
-                creating robust and dynamic web applications. In my free time, I
-                channel my creativity through music, performing as a freelance
-                jazz trombonist. Combining my technical skills and artistic
-                flair, I strive to craft seamless user experiences and harmonize
-                technology with artistry.
+                graduated UPENN's FSF Bootcamp. It equipped me with expertise in
+                developing resilient and dynamic web applications. In my free
+                time, I channel my creativity through music, performing as a
+                freelance jazz trombonist. Combining my technical skills and
+                artistic flair, I strive to craft seamless user experiences and
+                harmonize technology with artistry.
               </p>
             </div>
           </div>
